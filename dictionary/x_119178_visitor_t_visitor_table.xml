@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Visitor Table" max_length="40" name="x_119178_visitor_t_visitor_table" type="collection">
+        <element label="date" max_length="40" name="date" type="glide_date"/>
+        <element label="Firstname" max_length="40" name="firstname" type="string"/>
+        <element label="Lastname" max_length="40" name="lastname" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Date" max_length="40" name="u_glide_date_1" read_only="true" type="glide_date"/>
+    </element>
+</database>
